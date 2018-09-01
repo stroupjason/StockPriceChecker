@@ -10,80 +10,78 @@
 
 <body>
     <div id="quote-module">
-            <div class="container">
+        <div class="container">
 
-                <hr class="topLine">
+            <hr class="topLine">
 
-                <div class="row">
-                    <span id="name" class="col-5"></span>
-                </div>
-
-                <div class="row">
-                    <div id="price" class="col-sm-6"></div>
-                    <div class="col-sm-6 right">
-                        <span id="change" class="greenText"></span>
-                            <span></span> <span></span>
-                        <span id="changePercent" class="greenText"></span>
-                    </div>
-                </div>
-
-                <!-- <hr class="content"> -->
-
-                <div class="row">
-                    <div class="col-sm-6 dataName">Range</div>
-                    <div class="col-sm-6 right data"><span id="low"></span>
-                        <span> - </span>
-                        <span id="high"></span>
-                    </div>
-                </div>
-
-                <hr class="content">
-                <div class="row">
-                    <div class="col-sm-6 dataName">Open</div>
-                    <div class="col-sm-6 right data" id="open"></div>
-                </div>
-
-                <hr class="content">
-                <div class="row">
-                    <div class="col-sm-6 dataName">Volume</div>
-                    <div class="col-sm-6 right data" id="volume"></div>
-                </div>
-
-                <hr class="content">
-                <div class="row">
-                    <div class="col-sm-6 dataName">Market Cap</div>
-                    <div class="col-sm-6 right data" id="marketCap"></div>
-                </div>
-
-                <hr class="content">
-                <div class="row">
-                    <div class="col-sm-6"></div>
-                    <div class="col-sm-6 right data">As of <span id="timeStamp">
-                        </span></div>
-                </div>
-
-                <hr class="content">
-
-                <div class="alert alert-danger" id="alertWindow" role="alert">
-                    Error. Please enter one of the following options: MSFT, BRKA,
-                    AAPL, INFO, F, PLT, BIG, TWX, AME, JWN, CVS, MS, MET, IVD,
-                    and RND.
-                </div>
-
-                <form>
-                    <div class="form-row align-items-center">
-                        <div class="col-sm-6">
-                            <label class="sr-only" for="inputName">Name</label>
-                            <input type="text" class="form-control mb-2 mb-sm-0" id="stockName">
-                        </div>
-                        <div class="col-sm-6">
-                            <button type="submit" class="btn-btn-primary" id="stockButton">Get New Quote</button>
-                        </div>
-                    </div>
-                </form>
-
+            <div class="row">
+                <span id="name" class="col-5"></span>
             </div>
-        </div>
+
+            <div class="row">
+                <div id="price" class="col-sm-6"></div>
+                <div class="col-sm-6 right">
+                    <span id="change" class="greenText"></span>
+                    <span></span> <span></span>
+                    <span id="changePercent" class="greenText"></span>
+                </div>
+            </div>
+
+            <!-- <hr class="content"> -->
+
+            <div class="row">
+                <div class="col-sm-6 dataName">Range</div>
+                <div class="col-sm-6 right data"><span id="low"></span>
+                    <span> - </span>
+                    <span id="high"></span>
+                </div>
+            </div>
+
+            <hr class="content">
+            <div class="row">
+                <div class="col-sm-6 dataName">Open</div>
+                <div class="col-sm-6 right data" id="open"></div>
+            </div>
+
+            <hr class="content">
+            <div class="row">
+                <div class="col-sm-6 dataName">Volume</div>
+                <div class="col-sm-6 right data" id="volume"></div>
+            </div>
+
+            <hr class="content">
+            <div class="row">
+                <div class="col-sm-6 dataName">Market Cap</div>
+                <div class="col-sm-6 right data" id="marketCap"></div>
+            </div>
+
+            <hr class="content">
+            <div class="row">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6 right data">As of <span id="timeStamp">
+                        </span></div>
+            </div>
+
+            <hr class="content">
+
+            <div class="alert alert-danger" id="alertWindow" role="alert">
+                An error has occurred, please try again. Enter one of the
+                following options: MSFT, BRKA, AAPL, INFO, F, PLT, BIG, TWX,
+                AME, JWN, CVS, MS, MET, IVD, and RND.
+            </div>
+
+        <form class="form-inline">
+            <div>
+            <label class="sr-only" for="inlineFormInput">Name</label>
+            <input type="text" class="form-control mb-2 mr-sm-2 mr-sm-0"
+            id="stockName" placeholder=" i.e. 'INFO'">
+            <button type="submit" class="btn-btn-primary" id="stockButton">
+                Get New Quote</button>
+        </form>
+
+    </div>
+    </div>
     <script type="text/javascript"></script>
 </body>
+
 </html>

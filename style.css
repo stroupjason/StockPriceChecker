@@ -1,20 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Quattrocento");
 
 #quote-module {
-    border: 1px solid black;
+    border: 1px solid #f2f2f2;
     background: rgba(255, 255, 255, 1);
-    min-height: 300px;
-    max-width: 450px;
-    padding: 1%;
+    min-height: 150px;
+    max-width: 300px;
+    padding: 10px;
 }
 .container {
     background: white;
-    /* border: 1px solid #000; */
     padding-top: 10px;
     color: #333333;
 }
 .topLine {
-    border: 1.5px solid #3a3a3a;
+    border: 1.5px solid #444444;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 * {
     font-family: 'Quattrocento' serif;
@@ -30,7 +31,84 @@
 }
 
 .data {
-    font-size: 12px;
+    font-size: 10px;
     font-family: sans-serif;
     color: #707070;
+}
+#name {
+    font-family: serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    line-height: 1.25px;
+}
+
+#price {
+    font-family: serif;
+    font-size: 20px;
+}
+
+#change {
+    font-family: serif;
+    font-size: 16px;
+}
+
+#changepercent {
+    font-family: serif;
+    font-size: 16px;
+}
+
+.dataName {
+    font-size: 12px;
+    color: #999999;
+}
+
+.greenText {
+    color: green;
+}
+
+.minus {
+    color: red;
+}
+
+#timeStamp {
+    font-size: 20px;
+    align-items: 'right';
+}
+
+.form-inline {
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.form-control {
+    width: 36%;
+    display: inline-block;
+}
+
+#stockName {
+    border-radius: 5px 0 0 5px;
+    background-color: #ffffff;
+    background-image: none;
+}
+
+#stockName:hover, #stockName: active, #stockName: visited,
+#stockName: focus, {
+    background: none;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#stockButton {
+    background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+    color: black;
+    width: 44%;
+    display: inline-block;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid: #d8d8d8;
+    font-size: 14px;
+}
+
+#alertWindow {
+    font-size: 10px;
 }
