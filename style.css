@@ -11,11 +11,26 @@
     background: white;
     /* border: 1px solid #000; */
     padding-top: 10px;
-    color: #606060;
+    color: #333333;
 }
-.top {
-    border: 1.5px solid gray;
+.topLine {
+    border: 1.5px solid #3a3a3a;
 }
 * {
     font-family: 'Quattrocento' serif;
+}
+
+.content {
+    border-top: 1px solid #c9c9c9;
+
+}
+
+.right {
+    text-align: right;
+}
+
+.data {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #707070;
 }
