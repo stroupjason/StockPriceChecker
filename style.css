@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Quattrocento");
+
+#quote-module {
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 1);
+    min-height: 300px;
+    max-width: 450px;
+    padding: 1%;
+}
+.container {
+    background: white;
+    /* border: 1px solid #000; */
+    padding-top: 10px;
+    color: #606060;
+}
+.top {
+    border: 1.5px solid gray;
+}
+* {
+    font-family: 'Quattrocento' serif;
+}
