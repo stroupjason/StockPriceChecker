@@ -10,78 +10,79 @@
 
 <body>
     <div id="quote-module">
-        <div class="container">
+  <div class="container">
+    <hr class="topLine">
 
-            <hr class="topLine">
+    <div class="row">
+      <span class="inline-block" id="name"><span>
+        </div>
 
-            <div class="row">
-                <span id="name" class="col-5"></span>
-            </div>
+<div class="row">
+  <div class="col-sm-6 remove" id="lastPrice"></div>
+  <div class="col-sm-6 right">
+    <span class="greenText remove" id="change"></span></span>
+      <span></span>
+    <span id="changePercent" class="greenText remove"></span>
+  </div>
+</div>
 
-            <div class="row">
-                <div id="price" class="col-sm-6"></div>
-                <div class="col-sm-6 right">
-                    <span id="change" class="greenText"></span>
-                    <span></span> <span></span>
-                    <span id="changePercent" class="greenText"></span>
-                </div>
-            </div>
+<hr class="content">
+<div class="row">
+  <div class="col-sm-6 dataName remove">Range</div>
+   <div class="col-sm-6 right data remove"><span id="low"></span>
+    <span id="high"></span>
+  </div>
+ </div>
 
-            <!-- <hr class="content"> -->
+ <hr class="content">
+   <div class="row">
+    <div class="col-sm-6 dataName">Open</div>
+   <div class="col-sm-6 right data remove" id="open"></div>
+ </div>
 
-            <div class="row">
-                <div class="col-sm-6 dataName">Range</div>
-                <div class="col-sm-6 right data"><span id="low"></span>
-                    <span> - </span>
-                    <span id="high"></span>
-                </div>
-            </div>
+ <hr class="content">
+   <div class="row">
+    <div class="col-sm-6 dataName">Volume</div>
+   <div class="col-sm-6 right data remove" id="volume"></div>
+ </div>
 
-            <hr class="content">
-            <div class="row">
-                <div class="col-sm-6 dataName">Open</div>
-                <div class="col-sm-6 right data" id="open"></div>
-            </div>
+ <hr class="content">
+   <div class="row">
+    <div class="col-sm-6 dataName">Market Cap</div>
+   <div class="col-sm-6 right data remove" id="marketCap"></div>
+ </div>
 
-            <hr class="content">
-            <div class="row">
-                <div class="col-sm-6 dataName">Volume</div>
-                <div class="col-sm-6 right data" id="volume"></div>
-            </div>
+<hr class="content">
+ <div class="row">
+   <div class="col-sm-6"></div>
+   <div class="col-sm-6 right data remove"><span id="timeStamp"></span></div>
+</div>
 
-            <hr class="content">
-            <div class="row">
-                <div class="col-sm-6 dataName">Market Cap</div>
-                <div class="col-sm-6 right data" id="marketCap"></div>
-            </div>
+<hr class="content">
+ <div class="alert alert-danger" id="alertWindow" role="alert">
+Invalid input, please try again. Enter one of the following options: MSFT, BRKA, AAPL, IVD, INFO, F, PLT, BIG, TWX, AME, JWN, CVS, MS, MET, IVD, and RND.
+ </div>
 
-            <hr class="content">
-            <div class="row">
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6 right data">As of <span id="timeStamp">
-                        </span></div>
-            </div>
-
-            <hr class="content">
-
-            <div class="alert alert-danger" id="alertWindow" role="alert">
-                An error has occurred, please try again. Enter one of the
-                following options: MSFT, BRKA, AAPL, INFO, F, PLT, BIG, TWX,
-                AME, JWN, CVS, MS, MET, IVD, and RND.
-            </div>
-
-        <form class="form-inline">
-            <div>
-            <label class="sr-only" for="inlineFormInput">Name</label>
-            <input type="text" class="form-control mb-2 mr-sm-2 mr-sm-0"
-            id="stockName" placeholder=" i.e. 'INFO'">
-            <button type="submit" class="btn-btn-primary" id="stockButton">
-                Get New Quote</button>
-        </form>
-
+ <form>
+  <div class="form-row align-items-center">
+    <div class="col-6">
+  <label class="sr-only" for="inlineFormInput">Name</label>
+   <input type="text" class="form-control mb-2 mb-sm-0" id="stockName" placeholder=" i.e. 'INFO'"></div>
+    <div class="col-6">
+    <button type="submit" class="btn btn-primary" id="stockButton">
+     Get New Quote</button>
     </div>
     </div>
-    <script type="/Users/jasonstroup/Documents/Interviews/IHS-front-end-test/StockPriceChecker/app.js"></script>
+ </form>
+   </div>
+    </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script type="text/javascript" src="/Users/jasonstroup/Documents/Interviews/IHS-front-end-test/StockPriceChecker/app.js"></script>
+        <script type="style" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+
+        </script>
 </body>
 
 </html>

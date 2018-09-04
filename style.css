@@ -1,114 +1,132 @@
 @import url("https://fonts.googleapis.com/css?family=Quattrocento");
 
 #quote-module {
-    border: 1px solid #f2f2f2;
-    background: rgba(255, 255, 255, 1);
-    min-height: 150px;
-    max-width: 300px;
-    padding: 10px;
+  border-top:1px solid #f2f2f2;
+  background: rgba(255, 255, 255, 1);
+  min-height:300px;
+  max-width: 400px;
+  padding: 1px;
 }
+
 .container {
-    background: white;
-    padding-top: 10px;
-    color: #333333;
+  background: white;
+  padding-top: 10px;
+  color: #333333;
+  border: .75px;
+
 }
+
 .topLine {
-    border: 1.5px solid #444444;
-    margin-top: 1%;
-    margin-bottom: 2%;
+  border: 2px solid #666666;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-left: 1px;
+  margin-right: 1px;
 }
+
+
 * {
-    font-family: 'Quattrocento' serif;
+  font-family: 'Quattrocento' serif;
 }
 
 .content {
-    border-top: 1px solid #c9c9c9;
-
+  border-top: 1px solid #c9c9c9;
+  margin-top: 2px;
+  margin-bottom: 5px;
 }
 
 .right {
-    text-align: right;
+  text-align: right;
+  font-size: 10px;
 }
 
-.data {
-    font-size: 10px;
-    font-family: sans-serif;
-    color: #707070;
-}
 #name {
-    font-family: serif;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin-bottom: 20px;
-    margin-right: 5px;
-    line-height: 1.25px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 5px;
+  margin-left: 10px;
+  font-family: 'Times New Roman', serif;
+  line-height: 1.25px;
+  color: rgba: (30, 25, 25, 1);
+
 }
 
-#price {
-    font-family: serif;
-    font-size: 20px;
+#lastPrice {
+  font-family: serif;
+  font-size: 22px;
 }
 
 #change {
-    font-family: serif;
-    font-size: 16px;
+  font-family: serif;
+  font-size: 16px;
 }
 
-#changepercent {
-    font-family: serif;
-    font-size: 16px;
+#changePercent {
+  font-family: serif;
+  font-size: 16px;
 }
 
 .dataName {
-    font-size: 12px;
-    color: #999999;
+  font-size: 9px;
+  color: #999999;
 }
 
 .greenText {
-    color: green;
+  font-color: green;
 }
 
 .minus {
-    color: red;
+  color: red;
 }
 
 #timeStamp {
-    font-size: 20px;
-    align-items: 'right';
+  font-size: 10px;
+  align-items: 'right';
 }
 
 .form-inline {
-    width: 100%;
-    border-radius: 5px 0 0 5px;
+  width: 100%;
+  border-radius: 5px 0 0 5px;
 }
 
 .form-control {
-    width: 36%;
-    display: inline-block;
+  width: 100%;
+  display: inline-block;
 }
 
 #stockName {
-    border-radius: 5px 0 0 5px;
-    background-color: #ffffff;
-    background-image: none;
+  border-radius: 5px 0 0 5px;
+  background-color: #ffffff;
+  background-image: none;
 }
 
-#stockName:hover, #stockName: active, #stockName: visited,
-#stockName: focus, {
-    background: none;
-    background-color: rgba(255, 0, 0, 0.5);
+#stockName:hover, #stockName: active, #stockName: visited, #stockName: focus, {
+  background: none;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 #stockButton {
-    background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
-    color: black;
-    width: 44%;
-    display: inline-block;
-    border-radius: 0 5px 5px 0;
-    border: 1px solid: #d8d8d8;
-    font-size: 14px;
+  background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  color: black;
+  width: 100%;
+  display: inline-block;
+  border-radius:  0px 5px 5px 0px;
+  border: 1px solid: #d8d8d8;
+  font-size: 10px;
+  font-weight: lighter;
 }
 
 #alertWindow {
-    font-size: 10px;
+  font-size: 10px
+}
+
+.row {
+  padding: auto;
+}
+
+#low, #high, #open, #volume, #marketCap{
+  font-size:12px;
+  font-weight: bold;
 }
